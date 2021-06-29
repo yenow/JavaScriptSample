@@ -1,3 +1,5 @@
+/* 삼항 연산자 */
+
 const array = [];
 let text = array.length === 0
     ? '배열이 비어있습니다'
