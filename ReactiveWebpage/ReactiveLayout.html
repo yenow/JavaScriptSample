@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!--
+viewport
+ - 사용자에게 보이는 영역 (모바일과 태블릿은 화면 크기가 다르기 때문에 사용자가 볼 수 있는 범위가 다르다)
+ - viewport를 정하지 않으면 기본 모바일의 width값은 980px이다. 실제 모바일 화면의 픽셀은 이거보다 3배 적다. 따라서 980px을 보여주려고
+   배율을 줄이게 된다.
+
+속성
+- width : 뷰포트의 가로크기 설정,
+- initial-sacle : 페이지에 처음 접속했을 때 보여질 확대 배율 설정, 1보다 작다면 페이지는 축소되어 보이고 1보다 크면 확대되서 보인다
+- user-scalable : 사용자의 축소/확대 허용 여부, 초기값 = yes, no로 금지가능
+- minimum-scale : 뷰 포트 비율의 최소값
+- maximum-scale : 최대값
+    -->
+    <title>Title</title>
+    <link rel="stylesheet" href="ReactiveLayout.css">
+</head>
+<body>
+    <div class="flex">
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+    </div>
+    <div class="title">타이틀</div>
+    <p>viewport
+        - 사용자에게 보이는 영역 (모바일과 태블릿은 화면 크기가 다르기 때문에 사용자가 볼 수 있는 범위가 다르다)
+        - viewport를 정하지 않으면 기본 모바일의 width값은 980px이다. 실제 모바일 화면의 픽셀은 이거보다 3배 적다. 따라서 980px을 보여주려고
+        배율을 줄이게 된다.
+
+        속성
+        - width : 뷰포트의 가로크기 설정,
+        - initial-sacle : 페이지에 처음 접속했을 때 보여질 확대 배율 설정, 1보다 작다면 페이지는 축소되어 보이고 1보다 크면 확대되서 보인다
+        - user-scalable : 사용자의 축소/확대 허용 여부, 초기값 = yes, no로 금지가능
+        - minimum-scale : 뷰 포트 비율의 최소값
+        - maximum-scale : 최대값</p>
+</body>
+</html>

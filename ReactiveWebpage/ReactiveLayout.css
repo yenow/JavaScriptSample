@@ -1,0 +1,42 @@
+html {
+    font-size: 62.5%;
+}
+
+.title {
+    font-size: 4rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.flex {
+    display: flex;
+
+}
+
+.flex-item {
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+
+@media  (max-width: 1000px) {
+    html {
+        font-size: 50%;
+    }
+}
+/* 600보다 작은화면에서 적용 */
+@media (max-width: 600px) {
+    html {
+        font-size: 31.75%;
+    }
+}
+
+
+/* 모든 디바이스 & 최소 너비가 768 이상 & 최대 너비가 1080 이하'라는 조건을 모두 만족할 때 */
+/*@media all and (min-width:768px) and (max-width:1080px) {*/
+
+/*}*/
