@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <ul>
+        <li>apple</li>
+        <li>orange</li>
+        <li>banana</li>
+        <li>strawberry</li>
+    </ul>
+</body>
+<script>
+
+    /* filter, inclues, from을 사용해서 문자열 'e'가 포함된 노드로 구성된 배열을 만들어서 반환하기 */
+    function print() {
+        let arr = document.querySelector('ul');
+        let childrenArr = Array.from(arr.children);
+        let result =  childrenArr.filter(node => node.innerHTML.includes('e'))
+    }
+
+    function print2() {
+        let list = document.querySelectorAll('li');
+        console.log(toString.call(list));   // toString.call -> 타입을 체크하기위한 함수
+        let result =  Array.from(list).filter(node => node.innerHTML.includes('e'))
+    }
+
+    print();
+    print2();
+</script>
+</html>
