@@ -229,7 +229,7 @@ label
 }
 
 /**
- *	CKEditor editables are automatically set with the "cke_editable" class
+ *	CKEditor editables are automatically setMap with the "cke_editable" class
  *	plus cke_editable_(inline|themed) depending on the editor type.
  */
 
