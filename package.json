@@ -1,0 +1,19 @@
+{
+  "name": "javascriptsample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yenow/JavaScriptSample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yenow/JavaScriptSample/issues"
+  },
+  "homepage": "https://github.com/yenow/JavaScriptSample#readme"
+}
