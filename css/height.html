@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    sample-height {
+      /* 키워드 */
+      height: auto;
+
+      /* <length> */
+      height: 120px;
+      height: 10em;
+
+      /* <percentage> */
+      height: 75%;
+
+      /* 전역 값 */
+      height: inherit;
+      height: initial;
+      height: unset;
+    }
+
+    .parent {
+      height: 200px;
+      background-color: #0b90a8;
+    }
+
+    .child {
+      width: max-content;
+      background-color: black;
+    }
+
+    .parent2 {
+      background-color: #0b90a8;
+    }
+
+    .child2 {
+      width: inherit;
+      height: 100px;
+      background-color: black;
+    }
+  </style>
+</head>
+
+<body>
+<!-- 실시간 웹 브라우저 : alt + f2 -->
+<h3>샘플입니다</h3>
+<div class="parent">
+  <div class="child"></div>
+
+</div>
+<div class="parent2">
+  <div class="child2"></div>
+
+</div>
+
+<script>
+  console.log("로그")
+</script>
+</body>
+</html>
