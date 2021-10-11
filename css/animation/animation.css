@@ -1,0 +1,107 @@
+.container {
+    position: relative;
+}
+
+.item {
+    position:absolute;
+    left:100px;
+    width:100px;
+    height:50px;
+    margin-left:-50px;
+    background-color:#000;
+    color : #ffffff;
+
+    /* 애니메이션 이름 */
+    animation-name: jaehee;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+/* 키프레임 이름 = 애니메이션 이름 */
+@-webkit-keyframes jaehee {
+    0% {
+        left:100px;
+    }
+    100% {
+        left:300px;
+    }
+}
+
+/* animation-duration */
+.zero{
+    top:20px;
+    animation-duration:0s;
+}
+
+.minus{
+    top:80px;
+    animation-duration:-2s
+}
+.s {
+    top:140px;
+    animation-duration:2s
+}
+.s:hover {
+  animation-name:duration;
+}
+.ms{
+    top:200px;
+    animation-duration:900ms
+}
+
+@-webkit-keyframes duration {
+    from{
+        left:100px;
+        background-color:#fff;
+    }
+    to{
+        left:300px;
+        background-color:#999;
+    }
+}
+
+/* animation-delay */
+.zero2{
+    top:20px;
+    animation-delay:0s;
+}
+.now2{
+    top:80px;
+    animation-delay:0s;
+}
+.s2{
+    top:140px;
+    animation-delay:2s
+}
+.minus2{
+    top:200px;
+    animation-delay:-1s
+}
+
+@-webkit-keyframes boxDelay{
+    from{
+        left:100px;
+    }
+    to{
+        left:300px;
+    }
+}
+
+/* animation-direction */
+.animation-direction-normal {
+    animation-direction: normal;
+}
+
+.animation-direction-alternate {
+    animation-direction: alternate;
+}
+
+.animation-direction-reverse {
+    animation-direction: reverse;
+}
+
+.animation-direction-alternate-reverse {
+    animation-direction: alternate-reverse;
+}
